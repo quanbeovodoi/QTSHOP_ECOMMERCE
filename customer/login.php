@@ -230,7 +230,7 @@
 
             $row_customer = mysqli_fetch_array($run_customer);
 
-                $customer_id = $row_customer['customer_id'];
+            $customer_id = $row_customer['customer_id'];
 
             /* echo "<script>alert('Đăng Nhập Thành Công.')</script>"; */
 
