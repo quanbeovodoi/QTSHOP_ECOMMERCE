@@ -757,10 +757,11 @@ nav .iconMenu {
 .card__icon .btn:before,
 .card__icon .btn:after {
     width: 0%;
-    height: 0%;
+    
     content: "";
     position: absolute;
-    border-radius: 100%;
+    left: 0;
+    height: 100%;
 }
 
 .card__icon .btn:after {
@@ -784,8 +785,8 @@ nav .iconMenu {
 
 .card__icon .btn:hover:before,
 .card__icon .btn:hover:after {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     border-radius: 4px;
 }
 
@@ -796,6 +797,7 @@ nav .iconMenu {
 .card__icon .btn:hover:before {
     transition: all 0.5s ease-in;
 }
+
 
 /* back to top */
 
