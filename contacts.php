@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <!--css-->
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="images/logo.png" />
 
 </head>
 <body>

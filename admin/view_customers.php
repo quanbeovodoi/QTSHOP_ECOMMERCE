@@ -75,7 +75,7 @@
                                      
                                      <a href="index.php?delete_customer=<?php echo $c_id; ?>">
                                      
-                                     <button type="button" class="btn btn-block btn-outline-danger btn-sm">Sửa</button>
+                                     <button type="button" class="btn btn-block btn-outline-danger btn-sm">Xoá</button>
                                     
                                      </a> 
                                      

@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <!--css-->
     <link rel="stylesheet" href="css/my_account.css">
+    <link rel="shortcut icon" href="../images/logo.png" />
 
 </head>
 <body>
@@ -67,7 +68,7 @@
         <div class="iconWrapper">
 
             <!-- Form search -->
-            <form method="get" action="result.php">
+            <form method="get" action="../result.php">
                 <div class="mainNav__input">
                     <input type="search" name="user_query" placeholder="Tìm kiếm ...">
                     <button class="mainNav__btnSearch" type="submit"> <img src="../assets/icon-search.svg" alt=""></button>

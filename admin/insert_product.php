@@ -6,9 +6,7 @@
 
     } else {
     
-?>
-
-       
+?>   
 <div class="row"><!-- row Begin -->
     
     <div class="col-lg-12"><!-- col-lg-12 Begin -->

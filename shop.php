@@ -19,6 +19,7 @@
     <!--script swiper-->
     <link rel="stylesheet" href="css/swiper.min.css">
     <!--css-->
+    <link rel="shortcut icon" href="images/logo.png" />
     <link rel="stylesheet" href="css/shop.css">
 
 </head>

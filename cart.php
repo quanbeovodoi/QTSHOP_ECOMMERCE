@@ -19,6 +19,7 @@
     <!--script swiper-->
     <link rel="stylesheet" href="css/swiper.min.css">
     <!--css-->
+    <link rel="shortcut icon" href="images/logo.png" />
     <link rel="stylesheet" href="css/cart.css">
 
 </head>
@@ -451,37 +452,6 @@
                                     </p>
                                 </div>
                             </div>
-
-                            <!--
-                            <div class="info">
-
-                                <h4 class="info__infoTitle">Customer Data</h4>
-
-                                <div class="info__addressContent">
-                                    <div class="info__address">
-                                        <h5 class="info__addressTitle">Shipping Address</h5>
-                                        <p class="info__addressText">
-                                            Rafaela Lucas <br>
-                                            Company — Street to
-                                            nowhere, 33<br>
-                                            1000-004 Lisbon<br>
-                                            Portugal
-                                        </p>
-
-                                    </div>
-
-                                    <div class="info__address">
-                                        <h5 class="info__addressTitle">Billing Address</h5>
-                                        <p class="info__addressText">
-                                            Rafaela Lucas <br>
-                                            Home — Street to
-                                            nowhere, 24<br>
-                                            1000-008 Lisbon<br>
-                                            Portugal
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -505,7 +475,6 @@
 
                 var id = $(this).data("product_id");
                 var quantity = $(this).val();
-                alert($(this).data("product_id"));
                 if(quantity !='') {
 
                     $.ajax({
@@ -515,7 +484,7 @@
                         data:{id:id, quantity:quantity},
 
                         success:function() {
-                            $("body").load("cart_body.php");
+                            $("body").load("cart.php");
                         }
 
                     });

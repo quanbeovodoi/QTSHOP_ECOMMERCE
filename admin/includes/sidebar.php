@@ -179,14 +179,6 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="index.php?edit_css" class="nav-link <?php if(isset($_GET['edit_css'])){echo"active";};?>">
-              <i class="nav-icon fas fa-copy"></i>
-              <p>
-                Chỉnh sửa CSS
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
             <a href="#" class="nav-link <?php if(isset($_GET['view_users'])||isset($_GET['user_profile'])||isset($_GET['insert_user'])){echo"active";};?>">
             <i class="nav-icon fas fa-user-plus"></i>
               <p>

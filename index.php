@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- icon and title -->
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/logo.png" />
 
     <meta name="description"
         content="Lalla, shop thoi trang." />
@@ -294,7 +294,22 @@
 
     <!--Footer-->
     <footer class="footer">
-        <p class="footer__text">A project made by <a href="#" target="_blank" rel="noopener" class="link">Quan and Thang</a></p>
+        <p class="footer__text">Sinh viên thực hiện đồ án Quân và Thắng</p> 
+        <p class="footer__text">Thông tin sinh viên
+        <br>
+        Nguyễn Hoang Quân <span>+</span> Ngô Đức Thắng
+        <br>
+        Lớp D13HTTMDT1
+        <br>
+        trường đại học Điện Lực
+        </p>
+        <p class="footer__text">
+        Liên hệ
+        <br>
+        Gmail:quanbeovodoi@gmail.com<br>
+        Số điện thoại:0915327755
+        </p>
+        <p class="footer__text"></p>
     </footer>
     <!--end Footer-->
 
